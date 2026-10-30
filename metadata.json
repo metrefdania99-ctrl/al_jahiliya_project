@@ -1,0 +1,6 @@
+{
+  "name": "العصر الجاهلي: رحلة إلى حياة العرب قبل الإسلام",
+  "description": "موسوعة تاريخية وتعليمية تفاعلية تستعرض حياة العرب قبل الإسلام، فحول الشعراء، المعلقات، الفرسان، القبائل، الأسواق، والعادات والتقاليد.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

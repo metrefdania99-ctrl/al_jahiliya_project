@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-amiri: 'Amiri', serif;
+    --font-tajawal: 'Tajawal', sans-serif;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-tajawal);
+  }
+
+  h1, h2, h3, .font-amiri {
+    font-family: var(--font-amiri);
+  }
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F4EDE2;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #C5A059;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #A07830;
+}
+
+/* Ancient manuscript subtle paper grain effect */
+.bg-parchment {
+  background-color: #FBF8F2;
+  background-image: radial-gradient(#D6CEBE 0.75px, transparent 0.75px), radial-gradient(#D6CEBE 0.75px, #FBF8F2 0.75px);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+}
